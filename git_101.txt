@@ -1,4 +1,4 @@
-An understading for git: git basics and 101s.
+An understading for git: git basics and "how to"s.
 
 1. Commands
     git add [file/folder]
