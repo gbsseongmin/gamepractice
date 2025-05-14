@@ -1,5 +1,6 @@
-Make: Map Generation
-Make: Enemy pheonotypes
 Make: Dice Object
+Make: Battle Encounters
+Make: Shop Encounters
+Make: Enemy pheonotypes
+Make: Map Generation
 Make: Artifacts
-Make: 
