@@ -7,3 +7,7 @@ func _ready():
 	print(newDice.roll())
 	print(newDice.roll())
 	print(newDice.roll())
+	
+	print("Loading a shop")
+	var newShop = $shop
+	

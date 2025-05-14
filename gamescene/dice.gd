@@ -29,7 +29,7 @@ func getDice() -> Dictionary:
 
 func roll() -> int:
 	randomize()
-	var result = dice["pointer"][randi_range(1, dice["type"])] - 1;
+	var result = dice["pointer"][randi_range(1, dice["type"]) - 1] - 1;
 	var calaculated = activate(result)
 	return calaculated
 	
