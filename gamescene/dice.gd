@@ -3,7 +3,7 @@ extends Node2D
 var dice = {
 		"type" = 6,
 		"face" = [4, 5, 6, 4, 5, 6],
-		"pointer" = [1, 2, 3, 4, 5, 6]
+		"pointer" = [0, 1, 2, 3, 4, 5]
 	}
 
 """
@@ -29,7 +29,7 @@ func getDice() -> Dictionary:
 
 func roll() -> int:
 	randomize()
-	var result = dice["pointer"][randi_range(1, dice["type"]) - 1] - 1;
+	var result = dice["pointer"][randi_range(1, dice["type"]) - 1];
 	var calaculated = activate(result)
 	return calaculated
 	
